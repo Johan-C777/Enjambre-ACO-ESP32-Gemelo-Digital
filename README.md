@@ -80,6 +80,8 @@ flowchart LR
 
 ```text
 Enjambre-ACO-ESP32-Gemelo-Digital/
+├── Evidencias/
+│   └── Montaje.jpg            # Foto de los 3 nodos
 ├── Nodo1_ESP32_AP/
 │   ├── Nodo1_ESP32_AP.ino     # ESP32: crea la red (AP), concentra y reenvía + su colonia
 │   └── aco.h                  # Núcleo del algoritmo ACO (idéntico en los 3 nodos)
@@ -93,7 +95,6 @@ Enjambre-ACO-ESP32-Gemelo-Digital/
 │   ├── gemelo.py              # Gemelo digital: PyBullet + panel OpenCV + video web
 │   ├── Dockerfile             # Imagen Docker del gemelo
 │   └── requirements.txt
-├── Montaje.jpg                # Foto de los 3 nodos
 └── README.md
 ```
 
@@ -325,7 +326,7 @@ Compartir feromona hace al enjambre **casi el doble de rápido en promedio** y, 
 
 ## 🎥 Evidencias
 
-<p align="center"><img src="Montaje.jpg" alt="Montaje: 2 ESP32 y un ESP32-C3 Mini" width="520"></p>
+<p align="center"><img src="Evidencias/Montaje.jpg" alt="Montaje: 2 ESP32 y un ESP32-C3 Mini" width="520"></p>
 
 [![Ver video](https://img.shields.io/badge/%E2%96%B6%20Ver%20video-Enjambre%20ACO%20%2B%20gemelo%20digital-E53935?style=for-the-badge)](https://videotourl.com/videos/1791333278707-1f90014d-8c21-4f06-b696-fac111d54d1b.mp4)
 
